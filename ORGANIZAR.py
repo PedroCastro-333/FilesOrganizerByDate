@@ -28,6 +28,8 @@ for files in os.listdir():
             shutil.move(path+files, path+date+'/'+files)
         except FileExistsError:
             shutil.move(path+files, path+date+'/'+files)
+
+#Comentario do tubaraozinho
             
 
         
